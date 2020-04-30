@@ -1,0 +1,67 @@
+
+
+
+Day-1 : Introduction of Course 
+
+Day-2 : Source Code Management
+
+1.  GIT/GITHUB 
+
+COMMANDS :
+
+
+git command -h  (for help)
+
+git config --global user.name <username>
+git config --global user.email <email>
+git config --global --list
+
+git init -- it will create empty repository 
+
+#############################
+To clone the repository : 
+git clone <url>
+
+#############################
+To read the logs : 
+git log <filename >
+
+##############################
+To check status of repository
+git status 
+git status -s   (??) - means git is not tracking the file 
+
+##############################
+git add <file-name> -- added file into staging area 
+git status -s 
+git status
+git diff <file-name> -- to check the difference 
+
+##############################
+git add <filename>
+git commit <file-name> -m "comment" -- commiting the file & creating version
+git log <file-name>-- you will get te commit HASH & commit/commit-ID  
+
+Data will be on your commit are , which is local area of local repo.
+ 
+##############################
+git push <URI> -- to push the code to GITHUB
+
+It will ask for user-name & Password || You can use ssh & token to push to GITHUB
+
+##############################
+git reset <comit-hash> <file-name> -- To rollback the commit 
+git checkout -- <file-name>
+
+#############################
+
+git remote -v -- to check remote server 
+git remote add origin <URL>
+git remote show origin 
+
+git push --set-upstream origin master -- It create a link between client & github for tracking 
+
+
+
+
+
